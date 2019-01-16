@@ -26,6 +26,9 @@
         true
       application:
         name: security-gateway
+      profile:
+        docker
+      
 
 
 
