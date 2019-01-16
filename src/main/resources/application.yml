@@ -14,9 +14,9 @@
     spring:
       datasource:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://seclab.hpi.uni-potsdam.de:50049/riskdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-        username: cavas
-        password: slingshot
+        url: 
+        username: 
+        password: 
       jpa:
         hibernate.ddl-auto: update
         generate-ddl: true
