@@ -14,11 +14,17 @@ For more details about this work see the paper : `Integrating Continuous Securit
 
 Please, cite if useful for your research:
 
-@inproceedings{torkura2017integrating,
-  title={Integrating Continuous Security Assessments in Microservices and Cloud Native Applications},
-  author={Torkura, Kennedy A and Sukmana, Muhammad IH and Meinel, Christoph},
-  booktitle={Proceedings of the10th International Conference on Utility and Cloud Computing},
-  pages={171--180},
-  year={2017},
-  organization={ACM}
+`@inproceedings{torkura2017integrating,`
+
+  `title={Integrating Continuous Security Assessments in Microservices and Cloud Native Applications},`
+  
+  `author={Torkura, Kennedy A and Sukmana, Muhammad IH and Meinel, Christoph},`
+  
+  `booktitle={Proceedings of the10th International Conference on Utility and Cloud Computing},`
+  
+  `pages={171--180},`
+  
+  `year={2017},`
+  
+  `organization={ACM}`
 }
