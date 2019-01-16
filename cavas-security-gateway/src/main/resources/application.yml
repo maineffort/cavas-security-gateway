@@ -1,0 +1,40 @@
+    eureka:
+      instance:
+        hostname: localhost
+      client:
+        registerWithEureka: false
+        fetchRegistry: false
+    server:
+      port: 8761
+      waitTimeInMsWhenSyncEmpty: 0
+      serviceUrl:
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    
+    
+    spring:
+      datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://seclab.hpi.uni-potsdam.de:50049/riskdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: cavas
+        password: slingshot
+      jpa:
+        hibernate.ddl-auto: update
+        generate-ddl: true
+        show-sql: true
+      main:
+       allow-bean-definition-overriding:
+        true
+      application:
+        name: security-gateway
+
+
+
+
+
+
+
+
+
+
+
+ 
