@@ -1,6 +1,6 @@
 # Continuous Security Testing in Microservices and Cloud Native Applications
-This project was demostrates integration of security testing in cloud native CI/CD pipelines using [Test Driven Security techniques] (https://www.usenix.org/conference/enigma2017/conference-program/presentation/vehent). This approach is a key feature in SecDevOps, and aims at moving security tests leftwards in development pipelines.
-One major motivation for this project is the [discovery and registry design pattern](https://microservices.io/patterns/service-registry.html) of cloud applications design.
+This project was demostrates integration of security testing in cloud native CI/CD pipelines using `Test Driven Security` techniques (https://www.usenix.org/conference/enigma2017/conference-program/presentation/vehent). This approach is a key feature in SecDevOps, and aims at moving security tests leftwards in development pipelines.
+One major motivation for this project is the `discovery and registry design pattern` (https://microservices.io/patterns/service-registry.html) of cloud applications design.
 Security testing can be flexibly modified to meet with `time-to-market` requirements e.g. policies can be configured for more specific time-based tests, more detailed tests can be conducted as required. 
 
 # Deployment instructions
@@ -11,7 +11,7 @@ Security testing can be flexibly modified to meet with `time-to-market` requirem
 5. Security gateway will test all microservice prior to deployment. 
 6. Note that microservices are to be OpenAPI compliant i.e. should have an OpenAPI speciifed documents, this documents are necessary for the security tests.
  
-For more details about this work, take a look at our paper : [Integrating Continuous Security Assessments in Microservices and Cloud Native Applications] (https://www.researchgate.net/publication/320596749_Integrating_Continuous_Security_Assessments_in_Microservices_and_Cloud_Native_Applications).
+For more details about this work, take a look at our paper : `Integrating Continuous Security Assessments in Microservices and Cloud Native Applications` (https://www.researchgate.net/publication/320596749_Integrating_Continuous_Security_Assessments_in_Microservices_and_Cloud_Native_Applications).
 
 Please, cite if useful for your research:
 
@@ -28,4 +28,4 @@ Please, cite if useful for your research:
   `year={2017},`
   
   `organization={ACM}`
-}
+`}`
