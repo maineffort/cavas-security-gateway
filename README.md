@@ -7,9 +7,13 @@ Security testing can be flexibly modified to meet with `time-to-market` requirem
 1. Clone repository
 2. Replace your Discovery and Registry Service (`Eureka Server`) with the this project.
 3. Run as a Spring application, normally will run on port 8761.
-4. Deploy an OWASP ZAP server e.g. `docker pull owasp/zap2docker-stable` and supply the port in the `security.properties` file.
+4. Deploy an OWASP ZAP server
+   -  Install based on your OS from https://github.com/zaproxy/zaproxy/wiki/Downloads
+   -  Navigate to the root of the instaaltion directory and execute the command `\.zap -addoninstall openapi`
+   -  The command starts OWASP ZAP, and installs the `openapi addon` used for parsing openapi documents
+   -  OWASP ZAP wilkl listen to connections on port `8080`, otherwise supply your port in the `security.properties` file of the project.
 5. Security gateway will test all microservice prior to deployment. 
-6. Note that microservices are to be OpenAPI compliant i.e. should have an OpenAPI speciifed documents, this documents are necessary for the security tests.
+6. Note that microservices are to be OpenAPI compliant i.e. should have an OpenAPI specified documents, this documents are necessary for the security tests.
  
 For more details about this work, take a look at our paper : `Integrating Continuous Security Assessments in Microservices and Cloud Native Applications` (https://www.researchgate.net/publication/320596749_Integrating_Continuous_Security_Assessments_in_Microservices_and_Cloud_Native_Applications).
 
