@@ -1,7 +1,10 @@
 # Continuous Security Testing in Microservices and Cloud Native Applications
 This project was demostrates integration of security testing in cloud native CI/CD pipelines using `Test Driven Security` techniques (https://www.usenix.org/conference/enigma2017/conference-program/presentation/vehent). This approach is a key feature in SecDevOps, and aims at moving security tests leftwards in development pipelines.
 One major motivation for this project is the `discovery and registry design pattern` (https://microservices.io/patterns/service-registry.html) of cloud applications design.
-Security testing can be flexibly modified to meet with `time-to-market` requirements e.g. policies can be configured for more specific time-based tests, more detailed tests can be conducted as required. 
+Security testing can be flexibly modified to meet with `time-to-market` requirements e.g. policies can be configured for more specific time-based tests, more detailed tests can be conducted as required. Main take-aways:
+
+   - Security testing of microservices in CI/CD .
+   - Advanced security testing in the staging area of the microservices in parallel with deployed microservices to enable more inense and comprehensive testing.
 
 # Deployment instructions
 1. Clone repository
